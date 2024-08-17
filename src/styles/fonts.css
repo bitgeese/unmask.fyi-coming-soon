@@ -141,7 +141,146 @@
     font-style: italic;
     font-display: swap;
 }
-    
+
+
+
+@font-face {
+    font-family: 'Skribblugh';
+    src: url('/fonts/Skribblugh-Regular.woff2') format('woff2'),
+        url('/fonts/Skribblugh-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Degular Text';
+    src: url('/fonts/DegularText-BlackItalic.woff2') format('woff2'),
+        url('/fonts/DegularText-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Degular Text';
+    src: url('/fonts/DegularText-BoldItalic.woff2') format('woff2'),
+        url('/fonts/DegularText-BoldItalic.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Degular Text';
+    src: url('/fonts/DegularText-Black.woff2') format('woff2'),
+        url('/fonts/DegularText-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Degular Text';
+    src: url('/fonts/DegularText-Light.woff2') format('woff2'),
+        url('/fonts/DegularText-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Degular Text';
+    src: url('/fonts/DegularText-ThinItalic.woff2') format('woff2'),
+        url('/fonts/DegularText-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Degular Text';
+    src: url('/fonts/DegularText-RegularItalic.woff2') format('woff2'),
+        url('/fonts/DegularText-RegularItalic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Degular Text';
+    src: url('/fonts/DegularText-Bold.woff2') format('woff2'),
+        url('/fonts/DegularText-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Degular Text';
+    src: url('/fonts/DegularText-SemiBold.woff2') format('woff2'),
+        url('/fonts/DegularText-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Degular Text';
+    src: url('/fonts/DegularText-SemiBoldItalic.woff2') format('woff2'),
+        url('/fonts/DegularText-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Degular Text';
+    src: url('/fonts/DegularText-Thin.woff2') format('woff2'),
+        url('/fonts/DegularText-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Degular Text';
+    src: url('/fonts/DegularText-MediumItalic.woff2') format('woff2'),
+        url('/fonts/DegularText-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Degular Text';
+    src: url('/fonts/DegularText-LightItalic.woff2') format('woff2'),
+        url('/fonts/DegularText-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Degular Text';
+    src: url('/fonts/DegularText-Regular.woff2') format('woff2'),
+        url('/fonts/DegularText-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Degular Text';
+    src: url('/fonts/DegularText-Medium.woff2') format('woff2'),
+        url('/fonts/DegularText-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 @font-face {
     font-family: 'Degular Mono';
     src: url('/fonts/DegularMono-Black.woff2') format('woff2'),
