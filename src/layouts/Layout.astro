@@ -1,0 +1,51 @@
+---
+import '../styles/global.css';
+import { SEO } from 'astro-seo';
+
+export interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en" class="dark bg-background">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <SEO
+      title={title}
+      description={description}
+      canonical={Astro.url.href},
+      openGraph={{
+        basic: {
+          title: title,
+          type: "website",
+          image: "https://unmaks.fyi/images/og.png",
+        }
+      }}
+      twitter={{
+        creator: "@unmask.fyi",
+        card: "summary_large_image",
+      }}
+      extend={{
+        link: [{ rel: "icon", href: "/favicon.ico" }],
+        meta: [
+          { name: "twitter:image", content: "https://unmask.fyi/images/og.png" },
+          { name: "twitter:title", content: title },
+          { name: "twitter:description", content: description },
+          { name: "theme-color", content: "#5423E7" },
+        ],
+      }}
+    />
+    <script defer data-domain="unmask.fyi" src="https://plausible.io/js/script.js"></script>
+  </head>
+  <body class="bg-background text-white font-sans">
+    <slot />
+    
+  </body>
+</html>
