@@ -7,6 +7,7 @@ export default {
 				primary: '#FFC233',
 				secondary: '#DDA266',
 				background: '#5423E7',
+				
 			}
 		},
 	},
